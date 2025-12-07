@@ -1,8 +1,6 @@
 <?php
 
-function getRandomInt(int $min, int $max, int $notEqual = null): int {
-  $result = null;
-
+function getRandomInt(int $min, int $max, ?int $notEqual = null): int {
   do {
     $result = mt_rand($min, $max);
   } while($notEqual !== null && $result === $notEqual);
