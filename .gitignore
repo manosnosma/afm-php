@@ -23,3 +23,6 @@ composer.phar
 
 # PHPUnit
 .phpunit.result.cache
+
+# IDEs and editors
+.idea/
